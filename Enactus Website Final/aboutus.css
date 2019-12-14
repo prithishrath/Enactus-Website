@@ -1,0 +1,51 @@
+.logo {
+    display: inline-block;
+    vertical-align: left;
+    width: 190px;
+    height: 77px;
+    margin-left: 2px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-top: 0px;  
+}
+.navbar-custom {
+    background-color: #F0A800;
+}
+.navbar-brand
+{
+    color: rgba(255,255,255,.8);
+}
+.navbar-nishant 
+{
+    padding-bottom: 10px;
+}
+.footeraboutus{
+    background: black;
+    color:white;
+}   
+.links{
+      ul {list-style-type:none;}
+      li a{
+        background-color: black;
+        color: black;
+        transition: color .2s;
+        &:hover{
+          text-decoration:none;
+          color:#4180CB;
+          }
+      }
+    }  
+    .about-company{
+      i{font-size: 25px;}
+      a{
+        color:white;
+        transition: color .2s;
+        &:hover{color:#4180CB}
+      }
+    } 
+    .location{
+      i{font-size: 18px;}
+    }
+    .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+  }
+  

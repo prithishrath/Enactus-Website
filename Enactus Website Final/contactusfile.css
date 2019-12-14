@@ -1,0 +1,243 @@
+.logo {
+    display: inline-block;
+    vertical-align: left;
+    width: 190px;
+    height: 77px;
+    margin-left: 2px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-top: 0px;  
+}
+.navbar-custom {
+    background-color: #F0A800;
+}
+.navbar-brand
+ {
+    color: rgba(255,255,255,.8);
+  }
+img.d-block.w-100 {
+    height: 532px;
+  }
+.carousel-inner{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    height: 532px;
+  }
+
+#map{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width:100%;
+}
+.carousel-item, img {
+      display: absolute;  
+      top: 100;
+      left: 0;
+      min-height: 10px;
+  }
+.navbar-nishant {
+    padding-bottom: 10px;
+}
+.brief1 {
+    font-size: 40px;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    text-align: center;
+    letter-spacing: 4px;
+}
+.wrapper {
+    text-align: center;
+}
+
+  
+  .container .image {
+    width: 50%;
+  }
+  
+  .container img {
+    width: calc(100% - (20px * 2));
+    margin: 20px;
+  }
+
+  
+  .quote11{
+    border-left: 5px solid #bdc3c7;
+    padding-left: 22px;
+    margin-left: 100px;
+    padding-right: 100px;
+    text-align: absolute;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 35px;
+}
+
+.contact{
+    margin-top: 100px;
+    
+}
+
+
+
+
+
+
+.context-dark, .bg-gray-dark, .bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+    color: #ffffff;
+}
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 23px;
+    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+.social-container .col {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.nav-list li a:before {
+    content: "\f14f";
+    font: 400 21px/1 "Material Design Icons";
+    color: #4d6de6;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.3%;
+  padding: 60px;
+}
+
+imggg.img{
+border-radius: 50%;
+
+}
+
+blockquote {
+  margin: 0 auto;
+  padding: 1em;
+  border-left: 5px solid #999;
+}
+blockquote:before {
+  display: none;
+}
+blockquote:not(:first-of-type) {
+  margin-top: .5em;
+}
+blockquote p {
+  color: #555;
+  font-size: 12pt;
+  line-height: 1.4;
+  font-family: 'PT Serif', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
+}
+blockquote footer {
+  margin-top: .5em;
+  padding: 0;
+  color: #777;
+  font-size: 12pt;
+  text-align: left;
+  font-style: italic;
+}
+blockquote footer:before {
+  content: '— ';
+}
+blockquote:nth-of-type(even) {
+  text-align: right;
+  border-left: none;
+  border-right: 5px solid #999;
+}
+blockquote:nth-of-type(even) footer {
+  text-align: right;
+}
+blockquote:nth-of-type(even) footer:before {
+  content: '';
+}
+blockquote:nth-of-type(even) footer:after {
+  content: ' —';
+}
+@element 'blockquote' and (min-width: 300px) {
+  blockquote {
+    padding: 1em 20% 1em 1em;
+  }
+  blockquote p {
+    font-size: 14pt;
+  }
+  blockquote:nth-of-type(even) {
+    padding: 1em 1em 1em 20%;
+  }
+}
+.bcq{
+  margin-left: 130px;
+  margin-right: 130px;
+}
+.parapara{
+  text-align: left;
+  margin-left: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 70;
+}
+.btn-custom{
+margin-left: 13px;
+margin-top: 7px;
+}
+.footer{
+  background: black;
+  color:white;
+} 
+  .links{
+    ul {list-style-type: none;}
+    li a{
+      color: white;
+      transition: color .2s;
+      &:hover{
+        text-decoration:none;
+        color:#4180CB;
+        }
+    }
+  }  
+  .about-company{
+    i{font-size: 25px;}
+    a{
+      color:white;
+      transition: color .2s;
+      &:hover{color:#4180CB}
+    }
+  } 
+  .location{
+    i{font-size: 18px;}
+  }
+  .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+}
